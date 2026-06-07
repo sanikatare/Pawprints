@@ -265,17 +265,6 @@ paw-prints/
 
 ## Installation Guide
 
-### Prerequisites
-
-Install the following software before running the project:
-
-* Node.js v16 or later
-* MongoDB Community Server
-* Git
-* Visual Studio Code
-
----
-
 ## Clone Repository
 
 ```bash
