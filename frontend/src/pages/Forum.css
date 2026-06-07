@@ -1,0 +1,42 @@
+/* Forum */
+.forum-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+.cat-btn { padding: 7px 18px; border-radius: 50px; border: 1.5px solid var(--border); background: var(--cream); color: var(--text-mid); font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s; }
+.cat-btn:hover, .cat-btn.active { border-color: var(--green-500); background: var(--mint); color: var(--green-700); }
+.forum-posts { display: flex; flex-direction: column; gap: 16px; }
+.forum-post {}
+.fp-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.fp-cat { padding: 3px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 600; color: var(--text-mid); }
+.fp-author { font-size: 0.82rem; color: var(--text-muted); }
+.fp-date { font-size: 0.78rem; color: var(--text-muted); margin-left: auto; }
+.fp-title { font-size: 1.05rem; margin-bottom: 8px; }
+.fp-content { font-size: 0.88rem; color: var(--text-mid); line-height: 1.6; }
+.read-more { background: none; border: none; color: var(--green-600); font-size: 0.82rem; cursor: pointer; margin-top: 4px; padding: 0; }
+.fp-actions { display: flex; gap: 12px; margin-top: 12px; }
+.fp-action-btn { background: var(--green-50); border: 1px solid var(--border); padding: 5px 14px; border-radius: 50px; font-size: 0.82rem; cursor: pointer; transition: all 0.2s; }
+.fp-action-btn:hover { background: var(--mint); }
+.fp-comments { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.comment { padding: 8px 12px; background: var(--green-50); border-radius: var(--radius-sm); font-size: 0.84rem; margin-bottom: 8px; }
+.comment-input { display: flex; gap: 8px; margin-top: 10px; }
+.comment-input input { flex: 1; padding: 9px 14px; border: 1.5px solid var(--border); border-radius: var(--radius-sm); font-size: 0.88rem; outline: none; background: var(--cream); }
+.comment-input input:focus { border-color: var(--green-400); }
+
+/* Data Table */
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.data-table th { background: var(--green-50); padding: 10px 14px; text-align: left; font-weight: 600; color: var(--text-mid); font-size: 0.82rem; }
+.data-table td { padding: 12px 14px; border-bottom: 1px solid var(--green-50); color: var(--text-mid); }
+.data-table tr:last-child td { border-bottom: none; }
+.data-table tr:hover td { background: var(--cream); }
+
+/* Appointment Cards */
+.appt-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.appt-card { background: var(--cream); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; }
+.appt-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.appt-vet-name { font-weight: 600; font-size: 0.95rem; color: var(--text-dark); }
+.appt-details { display: flex; flex-direction: column; gap: 5px; font-size: 0.84rem; color: var(--text-mid); margin-bottom: 14px; }
+.appt-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* Pet tab row (shared) */
+.pet-tab-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.pet-tab { padding: 8px 20px; border-radius: 50px; border: 2px solid var(--border); background: var(--cream); color: var(--text-mid); font-weight: 500; font-size: 0.88rem; cursor: pointer; transition: all 0.2s; }
+.pet-tab.active { border-color: var(--green-500); background: var(--mint); color: var(--green-700); }
+.pet-tab:hover:not(.active) { border-color: var(--green-300); }

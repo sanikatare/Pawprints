@@ -1,0 +1,53 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+}
+
+.auth-left {
+  width: 40%;
+  background: linear-gradient(160deg, var(--green-600), var(--green-800));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  text-align: center;
+}
+.auth-paw { font-size: 3.5rem; display: block; margin-bottom: 16px; animation: bouncePaw 2s ease-in-out infinite; }
+.auth-left h1 {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  color: white;
+  margin-bottom: 8px;
+}
+.auth-left p { color: rgba(255,255,255,0.75); font-size: 1rem; }
+.auth-illustration { font-size: 2.5rem; margin-top: 40px; letter-spacing: 12px; opacity: 0.7; }
+
+.auth-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: var(--cream);
+}
+.auth-box {
+  width: 100%;
+  max-width: 440px;
+}
+.auth-box h2 { font-size: 1.8rem; margin-bottom: 6px; }
+.auth-sub { color: var(--text-light); margin-bottom: 32px; font-size: 0.95rem; }
+.auth-submit { width: 100%; padding: 14px; font-size: 1rem; margin-top: 8px; }
+.auth-switch { text-align: center; margin-top: 24px; color: var(--text-light); font-size: 0.9rem; }
+.auth-switch a { color: var(--green-600); font-weight: 600; }
+.auth-switch a:hover { text-decoration: underline; }
+
+@keyframes bouncePaw {
+  0%, 100% { transform: rotate(-10deg) scale(1); }
+  50% { transform: rotate(10deg) scale(1.1); }
+}
+
+@media (max-width: 700px) {
+  .auth-left { display: none; }
+  .auth-right { padding: 24px; }
+}

@@ -1,0 +1,23 @@
+.emergency-hero {
+  background: linear-gradient(135deg, #c0392b, #e74c3c);
+  border-radius: var(--radius-lg);
+  padding: 48px;
+  text-align: center;
+  color: white;
+  margin-bottom: 32px;
+}
+.em-icon { font-size: 3rem; margin-bottom: 12px; animation: pulse 1.5s ease-in-out infinite; }
+@keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.15)} }
+.emergency-hero h1 { font-size: 2rem; color: white; margin-bottom: 8px; }
+.emergency-hero p { color: rgba(255,255,255,0.8); margin-bottom: 24px; }
+.em-alert-btn {
+  background: white; color: #c0392b; border: none;
+  padding: 16px 40px; border-radius: 50px; font-size: 1rem; font-weight: 700;
+  cursor: pointer; transition: all 0.3s; letter-spacing: 0.5px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.em-alert-btn:hover { transform: scale(1.05); }
+.em-alert-btn.sent { background: #2ecc71; color: white; }
+.first-aid-card { cursor: pointer; transition: all 0.2s; }
+.first-aid-card:hover { border-color: var(--green-400); }
+.first-aid-card.expanded { border-color: var(--green-500); background: var(--green-50); }

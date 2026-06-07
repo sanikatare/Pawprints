@@ -1,0 +1,20 @@
+{
+  "folders": [
+    { "name": "🐾 Paw Prints (Root)", "path": "." },
+    { "name": "⚙️ Backend", "path": "./backend" },
+    { "name": "🎨 Frontend", "path": "./frontend" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Default Light+"
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "mongodb.mongodb-vscode",
+      "formulahendry.auto-rename-tag"
+    ]
+  }
+}
