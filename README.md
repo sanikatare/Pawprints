@@ -1,4 +1,4 @@
-# Paw Prints – Pet Health Monitoring & Diagnosis System
+# PawPrints – Pet Health Monitoring & Diagnosis System
 
 ## Overview
 
@@ -527,7 +527,6 @@ Recommended platform:
 * MongoDB Atlas
 
 ---
-
 
 ## License
 
