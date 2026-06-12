@@ -16,25 +16,6 @@ The primary objective of this project is to provide pet owners with an organized
 - **MongoDB** → https://www.mongodb.com/try/download/community
 - **VS Code** → https://code.visualstudio.com
 
-## Table of Contents
-
-1. Features
-2. Technology Stack
-3. System Architecture
-4. Project Structure
-5. Installation Guide
-6. Environment Variables
-7. Database Configuration
-8. Running the Application
-9. User Roles
-10. API Overview
-11. Security Features
-12. Future Enhancements
-13. Testing
-14. Deployment
-15. Contributors
-16. License
-
 ---
 
 ## Features
@@ -500,31 +481,6 @@ The application has been tested for:
 * Wearable device integration
 * Cloud storage for medical reports
 * Multi-veterinary network support
-
----
-
-## Deployment
-
-### Frontend
-
-Recommended platforms:
-
-* Vercel
-* Netlify
-
-### Backend
-
-Recommended platforms:
-
-* Render
-* Railway
-* AWS EC2
-
-### Database
-
-Recommended platform:
-
-* MongoDB Atlas
 
 ---
 
